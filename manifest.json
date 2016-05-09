@@ -1,6 +1,6 @@
 {
     "name": "com.cortexpowered.apps.image-playlist",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Image Playlist",
     "description": "This application displays a set of images from a Silo dataset.",
     "author": "Cortex",
@@ -19,7 +19,7 @@
     },
     "parameters": [
         {
-            "name": "cortex.images.dataset_id",
+            "name": "cortex.image_app.dataset_id",
             "default": "",
             "description": "The Silo dataset id"
         }
