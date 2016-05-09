@@ -1,0 +1,27 @@
+{
+    "name": "com.cortexpowered.apps.image-playlist",
+    "version": "1.0.1",
+    "displayName": "Image Playlist",
+    "description": "This application displays a set of images from a Silo dataset.",
+    "author": "Cortex",
+    "email": "support@cortexpowered.com",
+    "homepage": "http://www.cortexpowered.com",
+    "type": "application",
+    "assets": {
+        "icon128": "",
+        "icon256": "",
+        "icon512": "./app_assets/icon512.png",
+        "screenshot1": "./app_assets/screenshot1.jpeg",
+        "screenshot2": "./app_assets/screenshot2.jpeg",
+        "screenshot3": "./app_assets/screenshot3.jpeg",
+        "screenshot4": "",
+        "screenshot5": ""
+    },
+    "parameters": [
+        {
+            "name": "cortex.images.dataset_id",
+            "default": "",
+            "description": "The Silo dataset id"
+        }
+    ]
+}
