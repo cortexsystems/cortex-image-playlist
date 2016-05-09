@@ -3,7 +3,6 @@
 import View from './view.js';
 
 window.addEventListener('cortex-ready', function() {
-  console.log(window.Cortex);
   window.Cortex.app.getConfig()
     .then(function(config) {
       const datasetId = config['cortex.image_app.dataset_id'];

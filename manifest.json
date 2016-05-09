@@ -1,6 +1,6 @@
 {
     "name": "com.cortexpowered.apps.image-playlist",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Image Playlist",
     "description": "This application displays a set of images from a Silo dataset.",
     "author": "Cortex",

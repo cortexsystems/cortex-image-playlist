@@ -12,11 +12,11 @@ A zip file will be created under `./dist`
 
 Configuration
 -------------
-- `cortex.images.dataset_id`: The Silo dataset id. See below for the details.
+- `cortex.image_app.dataset_id`: The Silo dataset id. See below for the details.
 
 Silo Dataset
 ------------
-This application expects the playlist data to be stored in `cortex.images.dataset_id`. The dataset is expected to have the following columns:
+This application expects the playlist data to be stored in `cortex.image_app.dataset_id`. The dataset is expected to have the following columns:
 - `url`: The url of the image to be displayed.
 - `duration`: The image will be displayed on the screen for `duration` milliseconds.
 
